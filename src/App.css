@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+
+.title {
+  background-image: url("./images/header.jpg");
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.menu {
+  display: inline-block;
+  background-color: #3D3A9A;
+  width: 100vw;
+  text-align: left;
+}
+
+.menu div {
+  display: inline-block;
+}
+
+.searchBar {
+  float: right;
+}
+
+.searchBar input {
+  padding: 5px;
+  margin: 10px 30px 0 0;
+}
+
+.main-menu ul {
+  list-style-type: none;
+}
+
+.main-menu ul li {
+  display: inline;
+  padding: 15px 20px;
+}
+
+.main-menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-menu ul li:hover {
+  background-color: #060B35;
+}
+
+.products h2, .services h2 {
+  text-align: left;
+  margin: 50px 0 20px 20px;
+  border-bottom: 1px solid darkblue;
+}
+
+.product {
+  width: 45%;
+  display: inline;
+  float: left;
+  padding: 2%;
+}
+
+.service {
+  background-color: #E7EBEB;
+  width: 30vw;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.services div img {
+  width: 25%;
+}
+
+.buy-input {
+  width: 2vw;
+}
+
+.order-call input, .order-call button, .add-wish-list button, .buy-button {
+  padding: 5px;
+  margin: 5px;
+}
+
+.add-wish-list button img {
+  width: 1vw;
+}
+
+.footer {
+  margin: 0;
+  background-color: #060B35;
+  color: white;
+}
+
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer ul li, .social {
+  padding: 10px;
+}
+
+.social a img {
+  width: 40px;
+  padding: 10px;
+}
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
